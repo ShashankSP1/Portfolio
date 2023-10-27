@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Portfolio</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button><a href="https://www.linkedin.com/in/shashankshiva6361/" target="_blank">Hire Me</a></button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ----------ABOUT---------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <img src="images/Photo.jpg" style="height: 550px; width: 530px;">
+                </div>
+                <div class="about-col-1">
+                    <div class="text1">
+                        <h1>Shashank S P</h1>
+                        <p class="designation">Front-End Developer</p> <br>
+                        <br>
+                        <p>Passionate about complex problems solving through innovative technology solutions.</p>
+                    </div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>August 2019 - May 2023</span><br>Bachelor of Engineering (Mechanical Engineering) | 7.63 CGPA</br>
+                                University BDT College Of Engineering - Davanagere</li>
+                            <li><span>June 2017 - April 2019</span><br>Pre-University Education | 80.83%</br>
+                                Government PU College - Anavatti</li>
+                            <li><span>June 2016 - May 2017</span><br>SSLC | 91.68%</br>
+                                Morarji Desai Residential School - Churchigundi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <img width="144" height="144" src="https://img.icons8.com/fluency/144/java-coffee-cup-logo.png"
+                        alt="java-logo" />
+                    <h2>Java</h2>
+                    <p>Core Java.<br>OOPS Concepts.<br>Spring and SpringBoot.</p>
+                </div>
+                <div>
+                    <img width="144" height="144" src="https://img.icons8.com/color/100/code.png"
+                        alt="web development" />
+                    <h2>Web Development</h2>
+                    <p>HTML. <br>CSS. <br>Java Script.<br>SQL.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <img width="144" height="144" src="https://img.icons8.com/color/144/python--v1.png"
+                        alt="python-logo" />
+                    <h2>Python</h2>
+                    <p>Basics of Python.<br>OOPS Concepts.<br>Numpy and Pandas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p></p><br>
+    <p></p><br>
+    <p></p><br>
+    <!-- ----------Projects--------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <p style="text-align: center;">Stress Detection Using Machine Learning</p>
+                    <img src="images/Machine learning project.jpg" alt="">
+                    <div class="layer">
+                        <h2>Stress Detection using Machine Learning</h2>
+                        <p>
+                            Designed a user-friendly interface to gather real-time physiological data and display stress predictions, enhancing the project's practical utility. Developed a robust algorithm for real-time stress level assessment with a high degree of accuracy. Implemented an innovative Stress Detection system leveraging machine learning techniques.       
+                            <h3>Technologies used: Python (Pandas, NumPy, Matplotlib).</h3>
+                        </p>
+                        <a href="https://github.com/ShashankSP1/ML-Project" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <p style="text-align: center;">Employee Management System</p>
+                    <img src="images/ems.jpg" alt="" style="height: 440px; width: 850px;">
+                    <div class="layer">
+                        <h2>Employee Management System</h2>
+                        <p>
+                            Designed and developed an Employee Management System CRUD Application to streamline HR
+                            operations and enhance employee data management. Designed a user-friendly interface for adding, updating, deleting, and managing employee information, including
+                            personal details, and performance evaluations. Implemented a system that reduced the time spent on manual HR tasks and improved data accuracy and Gained expertise in database design and system architecture.
+                            <h4>Technologies Used: Java, HTML, CSS, JavaScript, and MySQL database.</h4>
+                        </p>
+                        <a href="https://github.com/ShashankSP1/Employee-Management-System" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="" class="btn">See more</a> -->
+        </div>
+    </div>
+    <p></p><br>
+    <p></p><br>
+    <p></p><br>
+    <p></p><br>
+    <p></p><br>
+    <p></p><br>
+    <!-- ----------CONTACT---------- -->
+    <div id="contact" >
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:shashankshiva6361@gmail.com"><i class="fas fa-paper-plane"></i></a>
+                        shashankshiva6361@gmail.com</p>
+                    <p><a href="tel:6361239882"><i class="fas fa-phone-square-alt"></i></a>+91 6361239882</p>
+                    <div class="social-icons">
+                        <!-- <a href="#"><i class="fab fa-facebook"></i></a> -->
+                        <a href="https://www.instagram.com/shashank__s_____/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/ShashankSP1" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shashankshiva6361/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Shashank S P resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <p></p><br>
+                    <p></p><br>
+                    <form action="mailto:shashankshiva6361@gmail.com">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p></p><br>
+    <p></p><br>
+    <p></p><br>
+    <p></p><br>
+    <p></p><br>
+    <p></p><br>
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+    </script>
+</body>
+
+</html>
